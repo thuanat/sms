@@ -12,6 +12,7 @@ http://127.0.0.1:8000/
 #3. Create the table 
 --
 php artisan make:migration create_students_table
+--
 Add
             $table->string(‘name’);
             $table->string(‘address’);
