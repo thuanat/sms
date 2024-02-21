@@ -2,19 +2,19 @@ Sudent Management System
 
 #1. Create a project
 --
-composer create-project laravel/laravel StudentManagement
+'''composer create-project laravel/laravel StudentManagement
 --
 #2. Start web server 
 --
-php artisan serve
+'''php artisan serve
 http://127.0.0.1:8000/
 --
 #3. Create the table 
 --
-php artisan make:migration create_students_table
+'''php artisan make:migration create_students_table
 --
 Add
-            $table->string(‘name’);
+            '''$table->string(‘name’);
             $table->string(‘address’);
             $table->string(‘mobile’);
 --
@@ -28,7 +28,8 @@ php artisan make:controller StudentController --resource
 --
 #6. Create Model
 --
-php artisan make:model Student
+'''php artisan make:model Student
+
 add
     "protected $table = 'students';
     protected $primaryKey = 'id';
