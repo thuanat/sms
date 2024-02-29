@@ -1,4 +1,5 @@
 Sudent Management System
+'''Buổi 1: Student
 
 #1. Create a project
 --
@@ -41,4 +42,13 @@ add
 --
 #8. Routes
 --
+
+# Buổi 2: Teacher
+## Tạo model Teacher và bảng teachers
+---
+php artisan make:model Tearcher
+
+---
+
+
 
