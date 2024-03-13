@@ -46,15 +46,18 @@ add
 # Buổi 2: Teacher
 ## Tạo model Teacher và bảng teachers
 ---
-php artisan make:model Tearcher
+php artisan make:model Tearcher -m
 
 ---
 
 # Buổi 3: Courses
+## Tạo model Course và bảng courses
 
 ---
 php artisan make:model Course -m
 ---
+
+
 
 
 
