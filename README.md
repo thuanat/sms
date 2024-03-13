@@ -58,7 +58,7 @@ php artisan make:model Course -m
 ---
 ---
 -Thêm các trường dữ liệu vào bảng cources
-            $table->id();
+            '''$table->id();
             $table->string('name');
             $table->string('syllabus');
             $table->string('duration'); 
@@ -66,7 +66,7 @@ php artisan make:model Course -m
 ---
 ---
 - Sửa file Course model
-   protected $table = 'courses';
+   ''' protected $table = 'courses';
     protected $primaryKey = 'id';
     protected $fillable = ['name', 'syllabus', 'duration'];
 ---
