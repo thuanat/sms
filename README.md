@@ -56,9 +56,27 @@ php artisan make:model Tearcher -m
 ---
 php artisan make:model Course -m
 ---
+---
+-Thêm các trường dữ liệu vào bảng cources
+            $table->id();
+            $table->string('name');
+            $table->string('syllabus');
+            $table->string('duration'); 
+            $table->timestamps()
+---
+---
+- Sửa file Course model
+   protected $table = 'courses';
+    protected $primaryKey = 'id';
+    protected $fillable = ['name', 'syllabus', 'duration'];
+---
 ### Tạo controller
 ---
 php artisan make:controller CourseController --resource
+---
+---
+- Tạo cấu trúc thư mục và các file index, create, show ... trong views giống
+Teacher và Student
 ---
 
 
