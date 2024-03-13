@@ -56,6 +56,10 @@ php artisan make:model Tearcher -m
 ---
 php artisan make:model Course -m
 ---
+### Tạo controller
+---
+php artisan make:controller CourseController --resource
+---
 
 
 
