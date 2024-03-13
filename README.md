@@ -50,5 +50,11 @@ php artisan make:model Tearcher
 
 ---
 
+# Buổi 3: Courses
+
+---
+php artisan make:model Course -m
+---
+
 
 
